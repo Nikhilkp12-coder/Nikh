@@ -1,1 +1,59 @@
-# Nikh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <H3>REGISTRATION FORM</H3>
+    <hr>
+    <H4>PERSONAL DETAILS </H4>
+    <!-- hey this is nikhil -->
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+         <input type="password" placeholder="Password">
+         <br>
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Mobile No.">
+<H4>QUALIFICATION</H4>       <label for="1">
+    <input type="radio" value="class IX" name="class" id="1">class IX </label>
+    <label for="2">
+        <BR>
+    <input type="radio" value="class X" name="class" id="2">class X </label>
+    <HR><H4>SUBJECTS</H4>
+    <label for="MATH">
+    <input type="checkbox" value="MATH" name="SUBJECT" id="101">MATH </label>
+    
+    <label for="HINDI">
+        <input type="checkbox" value="HINDI" name="SUBJECT" id="102">HINDI </label>
+
+        <label for="ENGLISH">
+        <input type="checkbox" value="ENGLISH" name="SUBJECT" id="103">ENGLISH </label>
+
+        <label for="SCIENCE">
+        <input type="checkbox" value="SCIENCE" name="SUBJECT" id="104">SCIENCE </label>
+
+        <label for="SANSKRIT">
+        <input type="checkbox" value="SANSKRIT" name="SUBJECT" id="105">SANSKRIT </label>
+
+        <label for="SOCIAL SCIENCE">
+        <input type="checkbox" value="SOCIAL SCIENCE" name="SUBJECT" id="106">SOCIAL SCIENCE </label>
+     <HR> 
+        <SELECT NAME="CITY">
+            <option VALUE="DELHI">DELHI</option>
+            <option VALUE="PUNE">PUNE</option>
+            <option VALUE="JAIPUR">JAIPUR</option>
+            <option VALUE="HYDRABAD">HYDRABAD</option>
+            <option VALUE="BANGLORE">BANGLORE</option>
+        </SELECT>
+
+<HR>
+    <textarea NAME="FEEDBACK" PLACEHOLDER="PLEASE GIVE YOUR VALUABLE FEEDBACK HERE" WIDTH
+="100"></textarea>
+<BR>
+    <input TYPE="SUBMIT" VALUE="SUBMIT">
+
+</form>
+</body>
+</html> 
